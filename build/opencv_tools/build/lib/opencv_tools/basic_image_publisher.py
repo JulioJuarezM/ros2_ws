@@ -28,14 +28,18 @@ class ImagePublisher(Node):
           
     self.br = CvBridge()
     ret, frame = self.cap.read()
+    ret, frame = self.cap.read()
+
     self.bbox = cv2.selectROI("Object Tracking", frame, False)
 
     roi = frame[self.bbox[1]:self.bbox[1] + self.bbox[3], self.bbox[0]:self.bbox[0] + self.bbox[2]]
     roi_hsv = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
     self.roi_hist = cv2.calcHist([roi_hsv], [0, 1], None, [180, 256], [0, 180, 0, 256])
     cv2.normalize(self.roi_hist, self.roi_hist, 0, 255, cv2.NORM_MINMAX)
-
     self.term_crit = (cv2.TERM_CRITERIA_EPS | cv2.TERM_CRITERIA_COUNT, 10, 1)
+    print(self.term_crit)
+    print('_______________________________________________________')
+    print('_______________________________________________________')
 
   def timer_callback(self):
 
@@ -52,7 +56,6 @@ class ImagePublisher(Node):
     cv2.polylines(frame, [pts], True, (0, 255, 0), 2)
     
     area = cv2.minAreaRect(pts.astype(np.int))
-    print(area[0][0])
     if self.ret == True:
       msg = String()
       msg.data = "'%s'-'%s'" % (area[0][0], area[0][1])
