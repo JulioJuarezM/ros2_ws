@@ -1,0 +1,150 @@
+[0.053s] Invoking command in '/home/parallels/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/py_srvcli:/home/parallels/ros2_ws/install/py_pubsub:/home/parallels/ros2_ws/install/launch_testing_examples:/home/parallels/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/parallels/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/parallels/ros2_ws/install/examples_rclpy_minimal_service:/home/parallels/ros2_ws/install/examples_rclpy_minimal_publisher:/home/parallels/ros2_ws/install/examples_rclpy_minimal_client:/home/parallels/ros2_ws/install/examples_rclpy_minimal_action_server:/home/parallels/ros2_ws/install/examples_rclpy_minimal_action_client:/home/parallels/ros2_ws/install/examples_rclpy_guard_conditions:/home/parallels/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[0.167s] [  2%] Built target cpp_pubsub__cpp
+[0.169s] [ 11%] Built target cpp_pubsub__rosidl_generator_c
+[0.181s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.193s] [ 11%] Built target ament_cmake_python_copy_cpp_pubsub
+[0.203s] [ 14%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.226s] [ 20%] Built target listener
+[0.275s] [ 28%] Built target cpp_pubsub__rosidl_typesupport_cpp
+[0.312s] [ 37%] Built target cpp_pubsub__rosidl_typesupport_fastrtps_c
+[0.329s] [ 45%] Built target cpp_pubsub__rosidl_typesupport_fastrtps_cpp
+[0.363s] [ 54%] Built target cpp_pubsub__rosidl_typesupport_introspection_c
+[0.386s] [ 62%] Built target cpp_pubsub__rosidl_typesupport_c
+[0.421s] [ 71%] Built target cpp_pubsub__rosidl_typesupport_introspection_cpp
+[0.723s] running egg_info
+[0.724s] writing cpp_pubsub.egg-info/PKG-INFO
+[0.724s] writing dependency_links to cpp_pubsub.egg-info/dependency_links.txt
+[0.725s] writing top-level names to cpp_pubsub.egg-info/top_level.txt
+[0.728s] reading manifest file 'cpp_pubsub.egg-info/SOURCES.txt'
+[0.730s] writing manifest file 'cpp_pubsub.egg-info/SOURCES.txt'
+[0.761s] [ 71%] Built target ament_cmake_python_build_cpp_pubsub_egg
+[0.776s] [ 71%] Built target cpp_pubsub
+[0.796s] [ 74%] Built target cpp_pubsub__py
+[0.828s] [ 80%] Built target cpp_pubsub__rosidl_generator_py
+[0.866s] [ 85%] Built target cpp_pubsub__rosidl_typesupport_fastrtps_c__pyext
+[0.907s] [ 91%] Built target cpp_pubsub__rosidl_typesupport_introspection_c__pyext
+[0.960s] [ 97%] Built target cpp_pubsub__rosidl_typesupport_c__pyext
+[5.044s] [100%] [32m[1mLinking CXX executable talker[0m
+[5.308s] [100%] Built target talker
+[5.351s] Invoked command in '/home/parallels/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/py_srvcli:/home/parallels/ros2_ws/install/py_pubsub:/home/parallels/ros2_ws/install/launch_testing_examples:/home/parallels/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/parallels/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/parallels/ros2_ws/install/examples_rclpy_minimal_service:/home/parallels/ros2_ws/install/examples_rclpy_minimal_publisher:/home/parallels/ros2_ws/install/examples_rclpy_minimal_client:/home/parallels/ros2_ws/install/examples_rclpy_minimal_action_server:/home/parallels/ros2_ws/install/examples_rclpy_minimal_action_client:/home/parallels/ros2_ws/install/examples_rclpy_guard_conditions:/home/parallels/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[5.446s] Invoking command in '/home/parallels/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/py_srvcli:/home/parallels/ros2_ws/install/py_pubsub:/home/parallels/ros2_ws/install/launch_testing_examples:/home/parallels/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/parallels/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/parallels/ros2_ws/install/examples_rclpy_minimal_service:/home/parallels/ros2_ws/install/examples_rclpy_minimal_publisher:/home/parallels/ros2_ws/install/examples_rclpy_minimal_client:/home/parallels/ros2_ws/install/examples_rclpy_minimal_action_server:/home/parallels/ros2_ws/install/examples_rclpy_minimal_action_client:/home/parallels/ros2_ws/install/examples_rclpy_guard_conditions:/home/parallels/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/parallels/ros2_ws/build/cpp_pubsub
+[5.455s] -- Install configuration: ""
+[5.459s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/rosidl_interfaces/cpp_pubsub
+[5.460s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub
+[5.461s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg
+[5.462s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/rosidl_generator_c__visibility_control.h
+[5.462s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail
+[5.462s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/num__struct.h
+[5.462s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/num__functions.c
+[5.463s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/num__functions.h
+[5.463s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/num__type_support.h
+[5.463s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/num.h
+[5.465s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.sh
+[5.465s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/library_path.dsv
+[5.466s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_generator_c.so
+[5.467s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub
+[5.467s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg
+[5.467s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail
+[5.468s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[5.468s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.469s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_fastrtps_c.so
+[5.470s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub
+[5.470s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg
+[5.470s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail
+[5.471s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/num__traits.hpp
+[5.471s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/num__builder.hpp
+[5.471s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/num__struct.hpp
+[5.471s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/num.hpp
+[5.471s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub
+[5.472s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg
+[5.472s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail
+[5.472s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/dds_fastrtps
+[5.472s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[5.473s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.473s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_fastrtps_cpp.so
+[5.473s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub
+[5.473s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg
+[5.473s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail
+[5.473s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/num__type_support.c
+[5.473s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/num__rosidl_typesupport_introspection_c.h
+[5.473s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.476s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_introspection_c.so
+[5.476s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_c.so
+[5.476s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub
+[5.476s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg
+[5.476s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail
+[5.476s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/num__type_support.cpp
+[5.476s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/include/cpp_pubsub/cpp_pubsub/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[5.477s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_introspection_cpp.so
+[5.477s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_typesupport_cpp.so
+[5.477s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/pythonpath.sh
+[5.477s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/pythonpath.dsv
+[5.477s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub-0.0.0-py3.10.egg-info
+[5.477s] -- Installing: /home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.478s] -- Installing: /home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub-0.0.0-py3.10.egg-info/top_level.txt
+[5.478s] -- Installing: /home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub-0.0.0-py3.10.egg-info/PKG-INFO
+[5.478s] -- Installing: /home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.478s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub
+[5.478s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.478s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.478s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.479s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/msg
+[5.480s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/msg/_num_s.c
+[5.480s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/msg/__init__.py
+[5.480s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/msg/_num.py
+[5.480s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/_cpp_pubsub_s.ep.rosidl_typesupport_c.c
+[5.480s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/__init__.py
+[5.480s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/libcpp_pubsub__rosidl_generator_py.so
+[5.480s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/_cpp_pubsub_s.ep.rosidl_typesupport_introspection_c.c
+[5.480s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/_cpp_pubsub_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.567s] Listing '/home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub'...
+[5.567s] Listing '/home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/msg'...
+[5.572s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.572s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.572s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/local/lib/python3.10/dist-packages/cpp_pubsub/cpp_pubsub_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.573s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/lib/libcpp_pubsub__rosidl_generator_py.so
+[5.574s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/msg/Num.idl
+[5.575s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/msg/Num.msg
+[5.577s] -- Installing: /home/parallels/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[5.578s] -- Set runtime path of "/home/parallels/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[5.580s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[5.581s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[5.582s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[5.582s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[5.582s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[5.582s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[5.582s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[5.582s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[5.582s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[5.582s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[5.582s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[5.582s] -- Installing: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[5.583s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[5.586s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_generator_cExport.cmake
+[5.586s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_generator_cExport-noconfig.cmake
+[5.587s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_typesupport_fastrtps_cExport.cmake
+[5.587s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.587s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_generator_cppExport.cmake
+[5.588s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.588s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.588s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_introspection_cExport.cmake
+[5.588s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.589s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_cExport.cmake
+[5.589s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_cExport-noconfig.cmake
+[5.589s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_introspection_cppExport.cmake
+[5.589s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.589s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_cppExport.cmake
+[5.589s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsub__rosidl_typesupport_cppExport-noconfig.cmake
+[5.590s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_generator_pyExport.cmake
+[5.590s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/export_cpp_pubsub__rosidl_generator_pyExport-noconfig.cmake
+[5.590s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/rosidl_cmake-extras.cmake
+[5.590s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.590s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.591s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_libraries-extras.cmake
+[5.592s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/ament_cmake_export_targets-extras.cmake
+[5.592s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.592s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.593s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[5.593s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[5.593s] -- Up-to-date: /home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[5.601s] Invoked command in '/home/parallels/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/py_srvcli:/home/parallels/ros2_ws/install/py_pubsub:/home/parallels/ros2_ws/install/launch_testing_examples:/home/parallels/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/parallels/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/parallels/ros2_ws/install/examples_rclpy_minimal_service:/home/parallels/ros2_ws/install/examples_rclpy_minimal_publisher:/home/parallels/ros2_ws/install/examples_rclpy_minimal_client:/home/parallels/ros2_ws/install/examples_rclpy_minimal_action_server:/home/parallels/ros2_ws/install/examples_rclpy_minimal_action_client:/home/parallels/ros2_ws/install/examples_rclpy_guard_conditions:/home/parallels/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/parallels/ros2_ws/build/cpp_pubsub

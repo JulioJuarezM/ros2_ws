@@ -1,0 +1,67 @@
+[0.087s] Invoking command in '/home/parallels/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/py_srvcli:/home/parallels/ros2_ws/install/py_pubsub:/home/parallels/ros2_ws/install/launch_testing_examples:/home/parallels/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/parallels/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/parallels/ros2_ws/install/examples_rclpy_minimal_service:/home/parallels/ros2_ws/install/examples_rclpy_minimal_publisher:/home/parallels/ros2_ws/install/examples_rclpy_minimal_client:/home/parallels/ros2_ws/install/examples_rclpy_minimal_action_server:/home/parallels/ros2_ws/install/examples_rclpy_minimal_action_client:/home/parallels/ros2_ws/install/examples_rclpy_guard_conditions:/home/parallels/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/custom_interfaces -- -j2 -l2
+[0.313s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_c[0m
+[0.380s] [  0%] Built target custom_interfaces__cpp
+[0.380s] [ 12%] Built target custom_interfaces__rosidl_generator_c
+[0.443s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_cpp[0m
+[0.507s] [ 12%] Built target ament_cmake_python_copy_custom_interfaces
+[0.539s] [ 24%] Built target custom_interfaces__rosidl_typesupport_cpp
+[0.555s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.612s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c[0m
+[0.649s] [ 37%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[0.650s] [ 50%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[0.683s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c[0m
+[0.707s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.731s] [ 62%] Built target custom_interfaces__rosidl_typesupport_c
+[0.783s] [ 74%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.816s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.889s] [ 87%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[0.930s] [ 87%] Built target custom_interfaces
+[0.969s] [ 87%] Built target custom_interfaces__py
+[1.005s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_py[0m
+[1.060s] [ 99%] Built target custom_interfaces__rosidl_generator_py
+[1.083s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.113s] [ 99%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.155s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[1.170s] [ 99%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.178s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c__pyext[0m
+[1.194s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[1.267s] running egg_info
+[1.269s] writing custom_interfaces.egg-info/PKG-INFO
+[1.270s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[1.271s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[1.274s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[1.276s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[1.299s] [100%] Built target ament_cmake_python_build_custom_interfaces_egg
+[1.320s] Invoked command in '/home/parallels/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/py_srvcli:/home/parallels/ros2_ws/install/py_pubsub:/home/parallels/ros2_ws/install/launch_testing_examples:/home/parallels/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/parallels/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/parallels/ros2_ws/install/examples_rclpy_minimal_service:/home/parallels/ros2_ws/install/examples_rclpy_minimal_publisher:/home/parallels/ros2_ws/install/examples_rclpy_minimal_client:/home/parallels/ros2_ws/install/examples_rclpy_minimal_action_server:/home/parallels/ros2_ws/install/examples_rclpy_minimal_action_client:/home/parallels/ros2_ws/install/examples_rclpy_guard_conditions:/home/parallels/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/custom_interfaces -- -j2 -l2
+[1.737s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1877, in _run_once
+    end_time = self.time() + self._clock_resolution
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 703, in time
+    return time.monotonic()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build
+    rc = await extension.build(
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 110, in build
+    if await has_target(args.build_base, 'install'):
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 77, in get_makefile_targets
+    output = await check_output([
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/cmake', '--build', '/home/parallels/ros2_ws/build/custom_interfaces', '--target', 'help'] to pass: gmake: *** [Makefile:7484: help] Interrupt
+

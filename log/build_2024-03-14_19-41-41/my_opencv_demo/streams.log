@@ -1,0 +1,12 @@
+[0.060s] Invoking command in '/home/parallels/ros2_ws/build/my_opencv_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/my_opencv_demo -- -j2 -l2
+[0.201s] [35m[1mConsolidate compiler generated dependencies of target minimal_opencv_ros2_node[0m
+[0.261s] [ 50%] [32mBuilding CXX object CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o[0m
+[0.322s] [100%] [32m[1mLinking CXX executable minimal_opencv_ros2_node[0m
+[1.657s] /usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':
+[1.657s] (.text+0x1c): undefined reference to `main'
+[1.658s] /usr/bin/ld: (.text+0x20): undefined reference to `main'
+[1.660s] collect2: error: ld returned 1 exit status
+[1.661s] gmake[2]: *** [CMakeFiles/minimal_opencv_ros2_node.dir/build.make:232: minimal_opencv_ros2_node] Error 1
+[1.661s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/minimal_opencv_ros2_node.dir/all] Error 2
+[1.662s] gmake: *** [Makefile:146: all] Error 2
+[1.662s] Invoked command in '/home/parallels/ros2_ws/build/my_opencv_demo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/my_opencv_demo -- -j2 -l2

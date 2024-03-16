@@ -1,0 +1,6 @@
+[  2%] Built target cpp_pubsub__cpp
+[ 11%] Built target cpp_pubsub__rosidl_generator_c
+[ 14%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[ 14%] Built target ament_cmake_python_copy_cpp_pubsub
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m

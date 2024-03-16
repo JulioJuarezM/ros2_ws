@@ -1,0 +1,9 @@
+[0.046s] Invoking command in '/home/parallels/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[0.068s] [31mCMake Error at CMakeLists.txt:4:
+[0.068s]   Parse error.  Expected "(", got identifier with text "to".
+[0.068s] 
+[0.068s] [0m
+[0.070s] -- Configuring incomplete, errors occurred!
+[0.070s] See also "/home/parallels/ros2_ws/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".
+[0.072s] gmake: *** [Makefile:829: cmake_check_build_system] Error 1
+[0.074s] Invoked command in '/home/parallels/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/cpp_pubsub -- -j2 -l2

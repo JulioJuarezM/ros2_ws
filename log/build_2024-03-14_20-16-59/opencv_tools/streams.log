@@ -1,0 +1,27 @@
+[1.385s] Invoking command in '/home/parallels/ros2_ws/src/opencv_tools': PYTHONPATH=/home/parallels/ros2_ws/build/opencv_tools/prefix_override:/home/parallels/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/parallels/ros2_ws/build/opencv_tools/build install --record /home/parallels/ros2_ws/build/opencv_tools/install.log --single-version-externally-managed
+[1.636s] running egg_info
+[1.637s] writing ../../build/opencv_tools/opencv_tools.egg-info/PKG-INFO
+[1.637s] writing dependency_links to ../../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt
+[1.638s] writing entry points to ../../build/opencv_tools/opencv_tools.egg-info/entry_points.txt
+[1.638s] writing requirements to ../../build/opencv_tools/opencv_tools.egg-info/requires.txt
+[1.638s] writing top-level names to ../../build/opencv_tools/opencv_tools.egg-info/top_level.txt
+[1.640s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.640s]   warnings.warn(
+[1.641s] reading manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[1.641s] writing manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[1.641s] running build
+[1.642s] running build_py
+[1.642s] copying opencv_tools/basic_image_publisher.py -> /home/parallels/ros2_ws/build/opencv_tools/build/lib/opencv_tools
+[1.642s] running install
+[1.642s] running install_lib
+[1.642s] copying /home/parallels/ros2_ws/build/opencv_tools/build/lib/opencv_tools/basic_image_publisher.py -> /home/parallels/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+[1.642s] byte-compiling /home/parallels/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/basic_image_publisher.py to basic_image_publisher.cpython-310.pyc
+[1.643s] running install_data
+[1.643s] running install_egg_info
+[1.645s] removing '/home/parallels/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools-0.0.0-py3.10.egg-info' (and everything under it)
+[1.647s] Copying ../../build/opencv_tools/opencv_tools.egg-info to /home/parallels/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools-0.0.0-py3.10.egg-info
+[1.647s] running install_scripts
+[1.692s] Installing img_publisher script to /home/parallels/ros2_ws/install/opencv_tools/lib/opencv_tools
+[1.693s] Installing img_subscriber script to /home/parallels/ros2_ws/install/opencv_tools/lib/opencv_tools
+[1.693s] writing list of installed files to '/home/parallels/ros2_ws/build/opencv_tools/install.log'
+[1.783s] Invoked command in '/home/parallels/ros2_ws/src/opencv_tools' returned '0': PYTHONPATH=/home/parallels/ros2_ws/build/opencv_tools/prefix_override:/home/parallels/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/parallels/ros2_ws/build/opencv_tools/build install --record /home/parallels/ros2_ws/build/opencv_tools/install.log --single-version-externally-managed

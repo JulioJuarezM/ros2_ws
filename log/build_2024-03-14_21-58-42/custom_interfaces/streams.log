@@ -1,0 +1,23 @@
+[0.046s] Invoking command in '/home/parallels/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/custom_interfaces -- -j3 -l3
+[0.128s] [  0%] Built target custom_interfaces__cpp
+[0.155s] [  0%] Built target ament_cmake_python_copy_custom_interfaces
+[0.167s] [ 12%] Built target custom_interfaces__rosidl_generator_c
+[0.212s] [ 24%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.222s] [ 36%] Built target custom_interfaces__rosidl_typesupport_cpp
+[0.256s] [ 49%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[0.334s] [ 62%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[0.364s] [ 74%] Built target custom_interfaces__rosidl_typesupport_c
+[0.384s] [ 87%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[0.451s] [ 87%] Built target custom_interfaces
+[0.551s] [ 87%] Built target custom_interfaces__py
+[0.706s] [ 99%] Built target custom_interfaces__rosidl_generator_py
+[0.801s] running egg_info
+[0.801s] writing custom_interfaces.egg-info/PKG-INFO
+[0.801s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[0.801s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[0.801s] [ 99%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.801s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[0.801s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[0.838s] [ 99%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.846s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[0.858s] [100%] Built target ament_cmake_python_build_custom_interfaces_egg

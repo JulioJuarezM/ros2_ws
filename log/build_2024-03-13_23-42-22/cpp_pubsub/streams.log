@@ -1,0 +1,35 @@
+[0.053s] Invoking command in '/home/parallels/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/py_srvcli:/home/parallels/ros2_ws/install/py_pubsub:/home/parallels/ros2_ws/install/launch_testing_examples:/home/parallels/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/parallels/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/parallels/ros2_ws/install/examples_rclpy_minimal_service:/home/parallels/ros2_ws/install/examples_rclpy_minimal_publisher:/home/parallels/ros2_ws/install/examples_rclpy_minimal_client:/home/parallels/ros2_ws/install/examples_rclpy_minimal_action_server:/home/parallels/ros2_ws/install/examples_rclpy_minimal_action_client:/home/parallels/ros2_ws/install/examples_rclpy_guard_conditions:/home/parallels/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[0.169s] [  2%] Built target cpp_pubsub__cpp
+[0.174s] [ 11%] Built target cpp_pubsub__rosidl_generator_c
+[0.186s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.192s] [ 11%] Built target ament_cmake_python_copy_cpp_pubsub
+[0.214s] [ 14%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.224s] [ 20%] Built target listener
+[0.265s] [ 28%] Built target cpp_pubsub__rosidl_typesupport_cpp
+[0.291s] [ 37%] Built target cpp_pubsub__rosidl_typesupport_fastrtps_c
+[0.316s] [ 45%] Built target cpp_pubsub__rosidl_typesupport_fastrtps_cpp
+[0.337s] [ 54%] Built target cpp_pubsub__rosidl_typesupport_introspection_c
+[0.389s] [ 62%] Built target cpp_pubsub__rosidl_typesupport_c
+[0.451s] [ 71%] Built target cpp_pubsub__rosidl_typesupport_introspection_cpp
+[0.728s] running egg_info
+[0.729s] writing cpp_pubsub.egg-info/PKG-INFO
+[0.729s] writing dependency_links to cpp_pubsub.egg-info/dependency_links.txt
+[0.729s] writing top-level names to cpp_pubsub.egg-info/top_level.txt
+[0.733s] reading manifest file 'cpp_pubsub.egg-info/SOURCES.txt'
+[0.734s] writing manifest file 'cpp_pubsub.egg-info/SOURCES.txt'
+[0.771s] [ 71%] Built target ament_cmake_python_build_cpp_pubsub_egg
+[0.789s] [ 71%] Built target cpp_pubsub
+[0.815s] [ 74%] Built target cpp_pubsub__py
+[0.843s] [ 80%] Built target cpp_pubsub__rosidl_generator_py
+[0.868s] [ 85%] Built target cpp_pubsub__rosidl_typesupport_fastrtps_c__pyext
+[0.888s] [ 91%] Built target cpp_pubsub__rosidl_typesupport_introspection_c__pyext
+[0.903s] [01m[K/home/parallels/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:22:10:[m[K [01;31m[Kfatal error: [m[Kcpp_pubsub/msg/Num: No such file or directory
+[0.904s]    22 | #include [01;31m[K"cpp_pubsub/msg/Num"[m[K
+[0.904s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.904s] compilation terminated.
+[0.911s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[0.911s] gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/talker.dir/all] Error 2
+[0.911s] gmake[1]: *** Waiting for unfinished jobs....
+[0.914s] [ 97%] Built target cpp_pubsub__rosidl_typesupport_c__pyext
+[0.915s] gmake: *** [Makefile:146: all] Error 2
+[0.919s] Invoked command in '/home/parallels/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/py_srvcli:/home/parallels/ros2_ws/install/py_pubsub:/home/parallels/ros2_ws/install/launch_testing_examples:/home/parallels/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/parallels/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/parallels/ros2_ws/install/examples_rclpy_minimal_service:/home/parallels/ros2_ws/install/examples_rclpy_minimal_publisher:/home/parallels/ros2_ws/install/examples_rclpy_minimal_client:/home/parallels/ros2_ws/install/examples_rclpy_minimal_action_server:/home/parallels/ros2_ws/install/examples_rclpy_minimal_action_client:/home/parallels/ros2_ws/install/examples_rclpy_guard_conditions:/home/parallels/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/cpp_pubsub -- -j2 -l2

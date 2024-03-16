@@ -1,0 +1,434 @@
+[3.351s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.351s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb5de09d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb63478e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb63478e0>>)
+[3.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.445s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.445s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/parallels/ros2_ws'
+[3.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.445s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.462s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.462s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.462s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.462s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.462s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.462s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[3.467s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore'
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore_ament_install'
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_pkg']
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_pkg'
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_meta']
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_meta'
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ros']
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ros'
+[3.469s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_srvcli' with type 'ros.ament_cmake' and name 'cpp_srvcli'
+[3.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[3.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore'
+[3.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore_ament_install'
+[3.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_pkg']
+[3.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_pkg'
+[3.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_meta']
+[3.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_meta'
+[3.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ros']
+[3.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ros'
+[3.470s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extensions ['ignore', 'ignore_ament_install']
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'ignore'
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'ignore_ament_install'
+[3.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extensions ['colcon_pkg']
+[3.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'colcon_pkg'
+[3.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extensions ['colcon_meta']
+[3.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'colcon_meta'
+[3.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extensions ['ros']
+[3.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'ros'
+[3.471s] DEBUG:colcon.colcon_core.package_identification:Package 'src/opencv_tools' with type 'ros.ament_python' and name 'opencv_tools'
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[3.478s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[3.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[3.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore'
+[3.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore_ament_install'
+[3.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_pkg']
+[3.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_pkg'
+[3.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_meta']
+[3.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_meta'
+[3.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ros']
+[3.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ros'
+[3.479s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'
+[3.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.629s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 290 installed packages in /opt/ros/humble
+[3.630s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.829s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[3.829s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[3.829s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.830s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[3.830s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[3.830s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[3.830s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[3.830s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[3.830s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.830s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/ros2_ws/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/ros2_ws/install/cpp_pubsub', 'merge_install': False, 'path': '/home/parallels/ros2_ws/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[3.839s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_args' from command line to 'None'
+[3.839s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target' from command line to 'None'
+[3.839s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.839s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[3.839s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[3.839s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[3.839s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[3.839s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[3.839s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.839s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/ros2_ws/build/cpp_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/ros2_ws/install/cpp_srvcli', 'merge_install': False, 'path': '/home/parallels/ros2_ws/src/cpp_srvcli', 'symlink_install': False, 'test_result_base': None}
+[3.847s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[3.848s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[3.848s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.848s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[3.848s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[3.848s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[3.848s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[3.848s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[3.848s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.848s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/ros2_ws/build/custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/ros2_ws/install/custom_interfaces', 'merge_install': False, 'path': '/home/parallels/ros2_ws/src/custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[3.856s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_args' from command line to 'None'
+[3.856s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_target' from command line to 'None'
+[3.856s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.856s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[3.856s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_clean_first' from command line to 'False'
+[3.856s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_force_configure' from command line to 'False'
+[3.856s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'ament_cmake_args' from command line to 'None'
+[3.856s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[3.857s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.857s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/ros2_ws/build/opencv_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/ros2_ws/install/opencv_tools', 'merge_install': False, 'path': '/home/parallels/ros2_ws/src/opencv_tools', 'symlink_install': False, 'test_result_base': None}
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[3.869s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.869s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/ros2_ws/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/ros2_ws/install/py_pubsub', 'merge_install': False, 'path': '/home/parallels/ros2_ws/src/py_pubsub', 'symlink_install': False, 'test_result_base': None}
+[3.877s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_args' from command line to 'None'
+[3.878s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target' from command line to 'None'
+[3.878s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.878s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[3.878s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[3.878s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[3.878s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[3.878s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[3.878s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.878s] DEBUG:colcon.colcon_core.verb:Building package 'py_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/ros2_ws/build/py_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/ros2_ws/install/py_srvcli', 'merge_install': False, 'path': '/home/parallels/ros2_ws/src/py_srvcli', 'symlink_install': False, 'test_result_base': None}
+[3.888s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.907s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.907s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/parallels/ros2_ws/src/cpp_pubsub' with build type 'ament_cmake'
+[3.907s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/parallels/ros2_ws/src/cpp_pubsub'
+[3.936s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.936s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.936s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.960s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/parallels/ros2_ws/src/cpp_srvcli' with build type 'ament_cmake'
+[3.960s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/parallels/ros2_ws/src/cpp_srvcli'
+[3.971s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.972s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[4.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/cpp_srvcli -- -j2 -l2
+[4.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[4.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/cpp_srvcli -- -j2 -l2
+[4.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/parallels/ros2_ws/build/cpp_pubsub
+[4.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/parallels/ros2_ws/build/cpp_srvcli
+[4.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[4.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/parallels/ros2_ws/build/cpp_pubsub
+[4.624s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_pubsub' for CMake module files
+[4.625s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_pubsub' for CMake config files
+[4.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[4.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[4.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[4.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[4.655s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_pubsub/lib'
+[4.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'ld_library_path_lib')
+[4.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/ld_library_path_lib.ps1'
+[4.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/ld_library_path_lib.dsv'
+[4.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/ld_library_path_lib.sh'
+[4.689s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_pubsub/bin'
+[4.689s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[4.689s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_pubsub/lib/python3.10/site-packages'
+[4.689s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_pubsub/bin'
+[4.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[4.713s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[4.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[4.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[4.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[4.720s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/ros2_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[4.726s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[4.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/parallels/ros2_ws/build/cpp_srvcli
+[4.744s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_srvcli' for CMake module files
+[4.744s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_srvcli' for CMake config files
+[4.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[4.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[4.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[4.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[4.777s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_srvcli/lib'
+[4.777s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_srvcli/bin'
+[4.778s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[4.778s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_srvcli/lib/python3.10/site-packages'
+[4.778s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_srvcli/bin'
+[4.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[4.814s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[4.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[4.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[4.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[4.817s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/ros2_ws/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[5.011s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[5.027s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_srvcli' for CMake module files
+[5.027s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_srvcli' for CMake config files
+[5.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[5.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[5.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[5.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[5.046s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_srvcli/lib'
+[5.046s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_srvcli/bin'
+[5.046s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[5.046s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_srvcli/lib/python3.10/site-packages'
+[5.047s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_srvcli/bin'
+[5.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[5.063s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[5.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[5.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[5.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[5.064s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/ros2_ws/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[5.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[5.090s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_pubsub' for CMake module files
+[5.104s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_pubsub' for CMake config files
+[5.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[5.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[5.120s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[5.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[5.121s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_pubsub/lib'
+[5.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'ld_library_path_lib')
+[5.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/ld_library_path_lib.ps1'
+[5.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/ld_library_path_lib.dsv'
+[5.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/hook/ld_library_path_lib.sh'
+[5.144s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_pubsub/bin'
+[5.144s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[5.144s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_pubsub/lib/python3.10/site-packages'
+[5.144s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/cpp_pubsub/bin'
+[5.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[5.153s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[5.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[5.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[5.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[5.179s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/ros2_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[5.181s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/parallels/ros2_ws/src/custom_interfaces' with build type 'ament_cmake'
+[5.181s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/parallels/ros2_ws/src/custom_interfaces'
+[5.196s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.196s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.256s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/parallels/ros2_ws/src/opencv_tools' with build type 'ament_python'
+[5.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tools', 'ament_prefix_path')
+[5.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/opencv_tools/share/opencv_tools/hook/ament_prefix_path.ps1'
+[5.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/ros2_ws/install/opencv_tools/share/opencv_tools/hook/ament_prefix_path.dsv'
+[5.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/opencv_tools/share/opencv_tools/hook/ament_prefix_path.sh'
+[5.848s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.848s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/custom_interfaces -- -j2 -l2
+[9.500s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/parallels/ros2_ws/src/opencv_tools'
+[9.636s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.636s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/ros2_ws/src/opencv_tools': PYTHONPATH=/home/parallels/ros2_ws/build/opencv_tools/prefix_override:/home/parallels/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/parallels/ros2_ws/build/opencv_tools/build install --record /home/parallels/ros2_ws/build/opencv_tools/install.log --single-version-externally-managed
+[12.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/custom_interfaces -- -j2 -l2
+[13.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/ros2_ws/src/opencv_tools' returned '0': PYTHONPATH=/home/parallels/ros2_ws/build/opencv_tools/prefix_override:/home/parallels/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/parallels/ros2_ws/build/opencv_tools/build install --record /home/parallels/ros2_ws/build/opencv_tools/install.log --single-version-externally-managed
+[13.239s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/opencv_tools' for CMake module files
+[13.239s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/opencv_tools' for CMake config files
+[13.241s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/opencv_tools/lib'
+[13.241s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/opencv_tools/bin'
+[13.241s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/opencv_tools/lib/pkgconfig/opencv_tools.pc'
+[13.241s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/opencv_tools/lib/python3.10/site-packages'
+[13.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tools', 'pythonpath')
+[13.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/opencv_tools/share/opencv_tools/hook/pythonpath.ps1'
+[13.259s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/ros2_ws/install/opencv_tools/share/opencv_tools/hook/pythonpath.dsv'
+[13.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/opencv_tools/share/opencv_tools/hook/pythonpath.sh'
+[13.267s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/opencv_tools/bin'
+[13.267s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_tools)
+[13.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/opencv_tools/share/opencv_tools/package.ps1'
+[13.283s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/ros2_ws/install/opencv_tools/share/opencv_tools/package.dsv'
+[13.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/opencv_tools/share/opencv_tools/package.sh'
+[13.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/opencv_tools/share/opencv_tools/package.bash'
+[13.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/opencv_tools/share/opencv_tools/package.zsh'
+[13.288s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/ros2_ws/install/opencv_tools/share/colcon-core/packages/opencv_tools)
+[13.289s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/parallels/ros2_ws/src/py_pubsub' with build type 'ament_python'
+[13.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[13.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[13.307s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/ros2_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[13.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[13.320s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.313s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/parallels/ros2_ws/src/py_pubsub'
+[14.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/parallels/ros2_ws/build/custom_interfaces
+[14.832s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[14.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/parallels/ros2_ws/build/custom_interfaces
+[14.928s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/custom_interfaces' for CMake module files
+[14.928s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/custom_interfaces' for CMake config files
+[14.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[14.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[14.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[14.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[14.948s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/custom_interfaces/lib'
+[14.948s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[14.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[14.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[14.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[14.960s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/custom_interfaces/bin'
+[14.960s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[14.960s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/custom_interfaces/lib/python3.10/site-packages'
+[14.960s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/custom_interfaces/bin'
+[14.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[14.989s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[14.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[14.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[14.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[14.995s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/ros2_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[15.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/ros2_ws/src/py_pubsub': PYTHONPATH=/home/parallels/ros2_ws/build/py_pubsub/prefix_override:/home/parallels/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/parallels/ros2_ws/build/py_pubsub/build install --record /home/parallels/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed
+[16.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/parallels/ros2_ws/build/py_pubsub/prefix_override:/home/parallels/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/parallels/ros2_ws/build/py_pubsub/build install --record /home/parallels/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed
+[16.342s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/py_pubsub' for CMake module files
+[16.342s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/py_pubsub' for CMake config files
+[16.343s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/py_pubsub/lib'
+[16.343s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/py_pubsub/bin'
+[16.343s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[16.344s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/py_pubsub/lib/python3.10/site-packages'
+[16.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[16.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[16.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/ros2_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[16.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[16.359s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/py_pubsub/bin'
+[16.359s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[16.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/py_pubsub/share/py_pubsub/package.ps1'
+[16.373s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/ros2_ws/install/py_pubsub/share/py_pubsub/package.dsv'
+[16.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/py_pubsub/share/py_pubsub/package.sh'
+[16.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/py_pubsub/share/py_pubsub/package.bash'
+[16.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/py_pubsub/share/py_pubsub/package.zsh'
+[16.378s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/ros2_ws/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[16.378s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/parallels/ros2_ws/src/py_srvcli' with build type 'ament_python'
+[16.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'ament_prefix_path')
+[16.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.ps1'
+[16.392s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/ros2_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.dsv'
+[16.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.sh'
+[16.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.403s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.804s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/parallels/ros2_ws/src/py_srvcli'
+[16.824s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.824s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.871s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[16.886s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/custom_interfaces' for CMake module files
+[16.887s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/custom_interfaces' for CMake config files
+[16.887s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[16.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[16.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[16.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[16.903s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/custom_interfaces/lib'
+[16.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[16.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[16.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[16.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[16.916s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/custom_interfaces/bin'
+[16.916s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[16.916s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/custom_interfaces/lib/python3.10/site-packages'
+[16.916s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/custom_interfaces/bin'
+[16.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[16.928s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[16.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[16.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[16.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[16.929s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/ros2_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[17.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/ros2_ws/src/py_srvcli': PYTHONPATH=/home/parallels/ros2_ws/build/py_srvcli/prefix_override:/home/parallels/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/parallels/ros2_ws/build/py_srvcli/build install --record /home/parallels/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed
+[17.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/parallels/ros2_ws/build/py_srvcli/prefix_override:/home/parallels/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/parallels/ros2_ws/build/py_srvcli/build install --record /home/parallels/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed
+[17.968s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/py_srvcli' for CMake module files
+[17.968s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/py_srvcli' for CMake config files
+[17.970s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/py_srvcli/lib'
+[17.970s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/py_srvcli/bin'
+[17.970s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/py_srvcli/lib/pkgconfig/py_srvcli.pc'
+[17.971s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/py_srvcli/lib/python3.10/site-packages'
+[17.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'pythonpath')
+[17.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.ps1'
+[17.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/ros2_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.dsv'
+[17.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/ros2_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.sh'
+[17.987s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/ros2_ws/install/py_srvcli/bin'
+[17.987s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_srvcli)
+[17.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/py_srvcli/share/py_srvcli/package.ps1'
+[17.996s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/ros2_ws/install/py_srvcli/share/py_srvcli/package.dsv'
+[17.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/py_srvcli/share/py_srvcli/package.sh'
+[17.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/py_srvcli/share/py_srvcli/package.bash'
+[18.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/ros2_ws/install/py_srvcli/share/py_srvcli/package.zsh'
+[18.001s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/ros2_ws/install/py_srvcli/share/colcon-core/packages/py_srvcli)
+[18.002s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.002s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.002s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.002s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.044s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.045s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.045s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.426s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.444s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/parallels/ros2_ws/install/local_setup.ps1'
+[18.448s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/parallels/ros2_ws/install/_local_setup_util_ps1.py'
+[18.449s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/parallels/ros2_ws/install/setup.ps1'
+[18.461s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/parallels/ros2_ws/install/local_setup.sh'
+[18.467s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/parallels/ros2_ws/install/_local_setup_util_sh.py'
+[18.467s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/parallels/ros2_ws/install/setup.sh'
+[18.482s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/parallels/ros2_ws/install/local_setup.bash'
+[18.483s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/parallels/ros2_ws/install/setup.bash'
+[18.493s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/parallels/ros2_ws/install/local_setup.zsh'
+[18.494s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/parallels/ros2_ws/install/setup.zsh'

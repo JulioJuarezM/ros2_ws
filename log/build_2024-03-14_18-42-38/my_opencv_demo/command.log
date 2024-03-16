@@ -1,0 +1,4 @@
+Invoking command in '/home/parallels/ros2_ws/build/my_opencv_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/parallels/ros2_ws/src/my_opencv_demo -DCMAKE_INSTALL_PREFIX=/home/parallels/ros2_ws/install/my_opencv_demo
+Invoked command in '/home/parallels/ros2_ws/build/my_opencv_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/parallels/ros2_ws/src/my_opencv_demo -DCMAKE_INSTALL_PREFIX=/home/parallels/ros2_ws/install/my_opencv_demo
+Invoking command in '/home/parallels/ros2_ws/build/my_opencv_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/my_opencv_demo -- -j2 -l2
+Invoked command in '/home/parallels/ros2_ws/build/my_opencv_demo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/my_opencv_demo -- -j2 -l2

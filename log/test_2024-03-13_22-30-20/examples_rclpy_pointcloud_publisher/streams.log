@@ -1,0 +1,22 @@
+[0.218s] Invoking command in '/home/parallels/ros2_ws/src/examples/rclpy/topics/pointcloud_publisher': AMENT_PREFIX_PATH=/home/parallels/ros2_ws/install/examples_rclpy_pointcloud_publisher:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/parallels/ros2_ws/build/examples_rclpy_pointcloud_publisher/pytest.xml --junit-prefix=examples_rclpy_pointcloud_publisher -o cache_dir=/home/parallels/ros2_ws/build/examples_rclpy_pointcloud_publisher/.pytest_cache PYTHONPATH=/home/parallels/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/parallels/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.418s] [1m============================= test session starts ==============================[0m
+[0.418s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.421s] cachedir: /home/parallels/ros2_ws/build/examples_rclpy_pointcloud_publisher/.pytest_cache
+[0.421s] rootdir: /home/parallels/ros2_ws/src/examples/rclpy, configfile: pytest.ini
+[0.421s] plugins: ament-copyright-0.12.10, ament-lint-0.12.10, ament-flake8-0.12.10, ament-pep257-0.12.10, launch-testing-1.0.5, ament-xmllint-0.12.10, launch-testing-ros-0.19.7, colcon-core-0.15.2, cov-3.0.0
+[0.495s] [1mcollecting ... [0m[1m
+[0.495s] collected 3 items                                                              [0m
+[0.496s] 
+[0.591s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[0.682s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[0.701s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[0.701s] 
+[0.701s] [33m=============================== warnings summary ===============================[0m
+[0.701s] topics/pointcloud_publisher/test/test_flake8.py::test_flake8
+[0.701s] topics/pointcloud_publisher/test/test_flake8.py::test_flake8
+[0.701s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[0.701s] 
+[0.701s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[0.701s] - generated xml file: /home/parallels/ros2_ws/build/examples_rclpy_pointcloud_publisher/pytest.xml -
+[0.701s] [33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 0.28s[0m[33m =========================[0m
+[0.758s] Invoked command in '/home/parallels/ros2_ws/src/examples/rclpy/topics/pointcloud_publisher' returned '0': AMENT_PREFIX_PATH=/home/parallels/ros2_ws/install/examples_rclpy_pointcloud_publisher:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/parallels/ros2_ws/build/examples_rclpy_pointcloud_publisher/pytest.xml --junit-prefix=examples_rclpy_pointcloud_publisher -o cache_dir=/home/parallels/ros2_ws/build/examples_rclpy_pointcloud_publisher/.pytest_cache PYTHONPATH=/home/parallels/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/parallels/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

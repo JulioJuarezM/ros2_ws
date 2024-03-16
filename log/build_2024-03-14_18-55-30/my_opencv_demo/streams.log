@@ -1,0 +1,26 @@
+[0.061s] Invoking command in '/home/parallels/ros2_ws/build/my_opencv_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/my_opencv_demo -- -j2 -l2
+[0.213s] [35m[1mConsolidate compiler generated dependencies of target minimal_opencv_ros2_node[0m
+[0.242s] [ 50%] [32mBuilding CXX object CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o[0m
+[9.765s] [100%] [32m[1mLinking CXX executable minimal_opencv_ros2_node[0m
+[10.572s] [100%] Built target minimal_opencv_ros2_node
+[10.688s] Invoked command in '/home/parallels/ros2_ws/build/my_opencv_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/my_opencv_demo -- -j2 -l2
+[10.776s] Invoking command in '/home/parallels/ros2_ws/build/my_opencv_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/parallels/ros2_ws/build/my_opencv_demo
+[10.783s] -- Install configuration: ""
+[10.785s] -- Installing: /home/parallels/ros2_ws/install/my_opencv_demo/lib/my_opencv_demo/minimal_opencv_ros2_node
+[10.788s] -- Set runtime path of "/home/parallels/ros2_ws/install/my_opencv_demo/lib/my_opencv_demo/minimal_opencv_ros2_node" to ""
+[10.790s] -- Up-to-date: /home/parallels/ros2_ws/install/my_opencv_demo/share/ament_index/resource_index/package_run_dependencies/my_opencv_demo
+[10.790s] -- Up-to-date: /home/parallels/ros2_ws/install/my_opencv_demo/share/ament_index/resource_index/parent_prefix_path/my_opencv_demo
+[10.795s] -- Up-to-date: /home/parallels/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/environment/ament_prefix_path.sh
+[10.796s] -- Up-to-date: /home/parallels/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/environment/ament_prefix_path.dsv
+[10.796s] -- Up-to-date: /home/parallels/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/environment/path.sh
+[10.796s] -- Up-to-date: /home/parallels/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/environment/path.dsv
+[10.796s] -- Up-to-date: /home/parallels/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/local_setup.bash
+[10.796s] -- Up-to-date: /home/parallels/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/local_setup.sh
+[10.801s] -- Up-to-date: /home/parallels/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/local_setup.zsh
+[10.801s] -- Up-to-date: /home/parallels/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/local_setup.dsv
+[10.801s] -- Installing: /home/parallels/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/package.dsv
+[10.804s] -- Up-to-date: /home/parallels/ros2_ws/install/my_opencv_demo/share/ament_index/resource_index/packages/my_opencv_demo
+[10.805s] -- Up-to-date: /home/parallels/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/cmake/my_opencv_demoConfig.cmake
+[10.805s] -- Up-to-date: /home/parallels/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/cmake/my_opencv_demoConfig-version.cmake
+[10.805s] -- Up-to-date: /home/parallels/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/package.xml
+[10.813s] Invoked command in '/home/parallels/ros2_ws/build/my_opencv_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/parallels/ros2_ws/build/my_opencv_demo

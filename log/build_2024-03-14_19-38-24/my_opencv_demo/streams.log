@@ -1,0 +1,14 @@
+[0.045s] Invoking command in '/home/parallels/ros2_ws/build/my_opencv_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/my_opencv_demo -- -j2 -l2
+[0.203s] [35m[1mConsolidate compiler generated dependencies of target minimal_opencv_ros2_node[0m
+[0.228s] [ 50%] [32mBuilding CXX object CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o[0m
+[4.585s] [01m[K/home/parallels/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_node.cpp:[m[K In constructor ‘[01m[KMinimalImagePublisher::MinimalImagePublisher()[m[K’:
+[4.591s] [01m[K/home/parallels/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_node.cpp:17:49:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid MinimalImagePublisher::timer_callback()[m[K’
+[4.591s]    17 |         500ms, std::bind([01;31m[KMinimalImagePublisher::timer_callback[m[K, this));
+[4.591s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[4.591s] [01m[K/home/parallels/ros2_ws/src/my_opencv_demo/src/minimal_opencv_ros2_node.cpp:21:8:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.591s]    21 |   void [01;36m[Ktimer_callback[m[K() {
+[4.591s]       |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[9.555s] gmake[2]: *** [CMakeFiles/minimal_opencv_ros2_node.dir/build.make:76: CMakeFiles/minimal_opencv_ros2_node.dir/src/minimal_opencv_ros2_node.cpp.o] Error 1
+[9.557s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/minimal_opencv_ros2_node.dir/all] Error 2
+[9.557s] gmake: *** [Makefile:146: all] Error 2
+[9.656s] Invoked command in '/home/parallels/ros2_ws/build/my_opencv_demo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/my_opencv_demo -- -j2 -l2

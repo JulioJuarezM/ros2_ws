@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.002356] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.002406] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.002422] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002436] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.005610] (-) EventReactorShutdown: {}

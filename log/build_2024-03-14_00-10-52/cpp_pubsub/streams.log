@@ -1,0 +1,55 @@
+[0.050s] Invoking command in '/home/parallels/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/py_srvcli:/home/parallels/ros2_ws/install/py_pubsub:/home/parallels/ros2_ws/install/launch_testing_examples:/home/parallels/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/parallels/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/parallels/ros2_ws/install/examples_rclpy_minimal_service:/home/parallels/ros2_ws/install/examples_rclpy_minimal_publisher:/home/parallels/ros2_ws/install/examples_rclpy_minimal_client:/home/parallels/ros2_ws/install/examples_rclpy_minimal_action_server:/home/parallels/ros2_ws/install/examples_rclpy_minimal_action_client:/home/parallels/ros2_ws/install/examples_rclpy_guard_conditions:/home/parallels/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[0.081s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.252s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.298s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.301s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.315s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.332s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.356s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.456s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.459s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.591s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.754s] -- Found custom_interfaces: 0.12.0 (/home/parallels/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake)
+[0.903s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.952s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.250s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.653s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.808s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.831s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.855s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.855s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.855s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[1.900s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.920s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.921s] -- Configured cppcheck include dirs: 
+[1.921s] -- Configured cppcheck exclude dirs and/or files: 
+[1.921s] -- Added test 'lint_cmake' to check CMake code style
+[1.922s] -- Added test 'uncrustify' to check C / C++ code style
+[1.922s] -- Configured uncrustify additional arguments: 
+[1.922s] -- Added test 'xmllint' to check XML markup files
+[1.925s] -- Configuring done
+[1.983s] -- Generating done
+[1.987s] -- Build files have been written to: /home/parallels/ros2_ws/build/cpp_pubsub
+[2.026s] [35m[1mConsolidate compiler generated dependencies of target cpp_pubsub__rosidl_generator_c[0m
+[2.033s] [  2%] Built target cpp_pubsub__cpp
+[2.045s] [ 11%] Built target cpp_pubsub__rosidl_generator_c
+[2.055s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[2.055s] [ 11%] Built target ament_cmake_python_copy_cpp_pubsub
+[2.063s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[2.106s] [ 14%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[2.108s] [ 17%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[2.466s] [01m[K/home/parallels/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[2.467s]    19 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[2.467s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.467s] compilation terminated.
+[2.468s] [01m[K/home/parallels/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:21:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[2.468s]    21 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[2.469s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.469s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[2.469s] gmake[1]: *** [CMakeFiles/Makefile2:620: CMakeFiles/listener.dir/all] Error 2
+[2.470s] gmake[1]: *** Waiting for unfinished jobs....
+[2.470s] compilation terminated.
+[2.473s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[2.475s] gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/talker.dir/all] Error 2
+[2.475s] gmake: *** [Makefile:146: all] Error 2
+[2.476s] Invoked command in '/home/parallels/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/ros2_ws/install/py_srvcli:/home/parallels/ros2_ws/install/py_pubsub:/home/parallels/ros2_ws/install/launch_testing_examples:/home/parallels/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/parallels/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/parallels/ros2_ws/install/examples_rclpy_minimal_service:/home/parallels/ros2_ws/install/examples_rclpy_minimal_publisher:/home/parallels/ros2_ws/install/examples_rclpy_minimal_client:/home/parallels/ros2_ws/install/examples_rclpy_minimal_action_server:/home/parallels/ros2_ws/install/examples_rclpy_minimal_action_client:/home/parallels/ros2_ws/install/examples_rclpy_guard_conditions:/home/parallels/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/parallels/ros2_ws/build/cpp_pubsub -- -j2 -l2
