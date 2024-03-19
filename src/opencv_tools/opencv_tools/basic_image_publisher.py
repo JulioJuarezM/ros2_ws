@@ -18,7 +18,7 @@ class ImagePublisher(Node):
     super().__init__('image_publisher')
        
     self.publisher_ = self.create_publisher(Image, 'video_frames', 10)
-    self.publisher2_ = self.create_publisher(String, 'topic', 10)
+    self.publisher2_ = self.create_publisher(String, 'object_screen_position', 10)
        
     timer_period = 0.05
        
@@ -58,7 +58,7 @@ class ImagePublisher(Node):
     area = cv2.minAreaRect(pts.astype(np.int))
     if self.ret == True:
       msg = String()
-      msg.data = "'%s'-'%s'" % (area[0][0], area[0][1])
+      msg.data = "%s-%s" % (area[0][0], area[0][1])
       self.publisher2_.publish(msg)
       self.publisher_.publish(self.br.cv2_to_imgmsg(frame))
     self.get_logger().info('Publishing video frame')
