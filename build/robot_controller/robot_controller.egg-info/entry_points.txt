@@ -1,5 +1,0 @@
-[console_scripts]
-find_object = robot_controller.find_obj_controller:main
-position_listener = robot_controller.pan_tilt_controller:main
-servo_control = robot_controller.servo_controller:main
-

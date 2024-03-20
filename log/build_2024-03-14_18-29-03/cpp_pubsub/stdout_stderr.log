@@ -1,7 +1,0 @@
-[31mCMake Error at CMakeLists.txt:4:
-  Parse error.  Expected "(", got identifier with text "to".
-
-[0m
--- Configuring incomplete, errors occurred!
-See also "/home/parallels/ros2_ws/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".
-gmake: *** [Makefile:829: cmake_check_build_system] Error 1
